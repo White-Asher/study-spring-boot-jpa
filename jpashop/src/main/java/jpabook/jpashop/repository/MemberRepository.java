@@ -17,6 +17,7 @@ public class MemberRepository {
 
     private final EntityManager em;
 
+
     //    @PersistenceUnit
 //    private EntityManagerFactory emf;
 
