@@ -1,7 +1,7 @@
 package jpabook.jpashop.web;
 
-import jpabook.jpashop.Domain.Address;
-import jpabook.jpashop.Domain.Member;
+import jpabook.jpashop.domain.Address;
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
