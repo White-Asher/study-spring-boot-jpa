@@ -1,8 +1,6 @@
 spring:
-  profiles:
-    active: local
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jpashop
+    url: jdbc:h2:tcp://localhost/~/datajpa
     username: sa
     password:
     driver-class-name: org.h2.Driver
@@ -14,12 +12,6 @@ spring:
       hibernate:
         #        show_sql:true
         format_sql: true
-        default_batch_fetch_size: 100
-        use_sql_comments: true
-    open-in-view: false
-  thymeleaf:
-    prefix: classpath:/templates/
-    suffix: .html
 
 logging:
   level:
